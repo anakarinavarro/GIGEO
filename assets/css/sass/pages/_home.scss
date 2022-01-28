@@ -1,0 +1,24 @@
+.video{
+    &__title{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    &__card--img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    &__card--subtitle{
+        font-size: $size--m;
+        font-weight: $negrita;
+    }
+    &__card--text{
+        font-size: $size--s;
+        font-weight: $normal;
+        color: $Gris;
+    }
+
+
+
+    
+}
